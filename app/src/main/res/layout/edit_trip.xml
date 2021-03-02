@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtTxtFromEditTrip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="from : city , area"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtTxtToEditTrip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="to : city , area"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edtTxtDateEditTrip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/edtTxtTimeEditTrip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="hh:mm"
+        android:inputType="time"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/edtTxtNumOfSeatsEditTrip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint="number of seats"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtTxtFareEditTrip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint="0.0"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"/>
+    <LinearLayout
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/createdListBtnShowUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:background="@drawable/btn_sign_up_backgroung"
+            android:text="show users" />
+
+        <Button
+            android:id="@+id/createdListBtnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:background="@drawable/btn_edit_account"
+            android:text="edit" />
+
+        <Button
+            android:id="@+id/createdListBtnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:background="@drawable/btn_delete_account"
+            android:text="delete" />
+    </LinearLayout>
+
+
+</LinearLayout>

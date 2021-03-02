@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+    <EditText
+        android:id="@+id/searchFrom"
+        android:hint="from"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/search_edit_txt"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <EditText
+        android:id="@+id/searchTo"
+        android:hint="to"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/search_edit_txt"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <ImageView
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"/>
+    <ImageView
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="71dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/search_edit_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:textAllCaps="false"/>
+
+    <ListView
+        android:id="@+id/listOfSearchTrip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp" />
+
+</FrameLayout>
