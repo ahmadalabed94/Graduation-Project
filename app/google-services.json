@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "221486650175",
+    "firebase_url": "https://car-sharing-ec4cc.firebaseio.com",
+    "project_id": "car-sharing-ec4cc",
+    "storage_bucket": "car-sharing-ec4cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221486650175:android:5e83cea055d7eb5b6d798a",
+        "android_client_info": {
+          "package_name": "com.app.carsharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221486650175-9cuj56q87vjamhueh1286e8l7dm9nh30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.carsharing",
+            "certificate_hash": "d08114ceab2b0d19da30e9f00f66bbd0c98339a8"
+          }
+        },
+        {
+          "client_id": "221486650175-lcj822vphm8di6mjjvadip3rj7b7ac4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQi0k_O9CgYWaDhphw7cB_4yAWUTl24U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221486650175-lcj822vphm8di6mjjvadip3rj7b7ac4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
